@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#score {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#game-field {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#game-field,
+#game-field .cell {
+  cursor: var(--hammer-cursor, url('../assets/hammer-cursor.png') 16 16, pointer) !important;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #444;
+  border: 2px solid #666;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
