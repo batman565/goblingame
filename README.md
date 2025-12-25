@@ -1,5 +1,3 @@
 # Goblin Game
+[![Build and Deploy](https://github.com/batman565/goblingame/actions/workflows/main.yml/badge.svg)](https://github.com/batman565/goblingame/actions/workflows/main.yml)
 
-![Build status](https://github.com/batman565/goblingame/actions/workflows/deploy.yml/badge.svg)
-
-[Играть в игру](https://batman565.github.io/goblingame/)
